@@ -4,15 +4,21 @@
 @import url('https://fonts.googleapis.com/css?family=Voces');
 @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
 
+.body{
+   font-family: 'Asap', sans-serif;
+}
 
 .navbar {
   /* font-family: 'Cambo', serif; */
   font-family: 'Voces', serif; 
-  /* font-family: 'Asap', sans-serif; */
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
   background: image_url('asfalt-light.png');
-  color: red;
+  background-color: #1a1a1c;
+}
+
+.navbar ul a {
+  color: #c5c6c9;
 }
 
 .navbar-brand {
@@ -20,4 +26,32 @@
   font-size: 28px;
   padding: 0;
   color: white;
+}
+
+.hero {
+  background: image_url('hero.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: 'Asap', sans-serif; 
+  /* font-family: 'Cambo', serif; */
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+  letter-spacing: -1px;
+}
+
+.btn {
+  border-radius: 0;
 }
