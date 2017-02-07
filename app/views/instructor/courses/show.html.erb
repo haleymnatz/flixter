@@ -32,3 +32,8 @@
   <br/>
   <%= current_course.cost %>
 </div>
+<% current_course.photos.each do |photo| %>
+  <div class="col-3">
+    <%= image_tag photo.image, class: 'img-fluid' %>
+  </div>
+<% end %>
