@@ -5,8 +5,8 @@ class Instructor::PhotosController < ApplicationController
   end
 
   def create
-    @photo = @course.photos.create(photo_params)
-    redirect_to instructor_course_path(@course)
+    @photo = current_course.photos.create(photo_params)
+    redirect_to instructor_course_path(current_course)
   end
 
   private
@@ -17,7 +17,7 @@ class Instructor::PhotosController < ApplicationController
   end
 
   def photo_params
-    params.require(:photo).permit(:photo)
+    params.require(:photo).permit(:image)
   end
 
 end

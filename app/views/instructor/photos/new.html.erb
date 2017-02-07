@@ -3,7 +3,7 @@
 <div class="booyah-box col-8 offset-2">
   <h1>Add Course Photo</h1>
   <%= simple_form_for @photo, url: instructor_course_photos_path(current_course) do |f| %>
-    <%= f.input :photo %>
+    <%= f.input :image %>
     <%= f.submit 'Add a Photo', class: 'btn btn-primary' %>
   <% end %>
 </div>
