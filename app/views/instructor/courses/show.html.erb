@@ -2,6 +2,8 @@
 <div class="booyah-box col-8 offset-2">
   <h1 class="text-center"><%= current_course.title %></h1>
   <br/>
+  <%= image_tag current_course.image, class: 'img-fluid' %>
+  <br/><br/>
   <%= link_to 'Preview Student Course Page', course_path(current_course), class: 'btn btn-warning float-right' %> 
   <br class:"clr">
   <div class="text-center">
