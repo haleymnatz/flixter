@@ -3,7 +3,9 @@
 <div class="booyah-box col-8 offset-2">
   <h1 class="text-center"><%= @course.title %></h1>
   <br/>
-  <%= image_tag @course.image, class: 'img-fluid center-block' %>
+  <div class="col-10 offset-1">
+    <%= image_tag @course.image, class: 'img-fluid center-block' %>
+  </div>
   <br/><br/>
 
   <div class="row">
