@@ -1,24 +1,39 @@
-# README
+# Flixter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A video-streaming marketplace platform that allows instructors to upload courses on various subjects and students to view these courses for free or of charge. [Check it out here!](https://flixter-haley-mnatzaganian.herokuapp.com/)
 
-Things you may want to cover:
+features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships.
 
-* Ruby version
+## Built With
 
-* System dependencies
+* PostgreSQL
+* Bootstrap
+* Devise
+* Simple Form
+* Geocoder
+* Figaro
+* Carrierwave
+* Fog
+* Mini-Magick
+* Stripe
+* Ranked Model
+* Font Awesome
 
-* Configuration
+## Features
+* User authentication with multiple user roles
+* Credit card payment system
+* Video and image uploading via Amazon S3
 
-* Database creation
+## Usage
 
-* Database initialization
+#### Instructor
 
-* How to run the test suite
+Create courses that are sorted into sections. Upload a video for each lesson. Allow your course to be free or require payment.
 
-* Services (job queues, cache servers, search engines, etc.)
+#### Student
 
-* Deployment instructions
+Enroll in multiple courses. Watch video lessons. 
 
-* ...
+## Versioning
+
+* Rails 5.0.0
