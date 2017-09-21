@@ -2,8 +2,6 @@
 
 A video-streaming marketplace platform that allows instructors to upload courses on various subjects and students to view these courses for free or of charge. [Check it out here!](https://flixter-haley-mnatzaganian.herokuapp.com/)
 
-features credit card payment capabilities, user role management, complex user interfaces, and advanced database relationships.
-
 ## Built With
 
 * PostgreSQL
